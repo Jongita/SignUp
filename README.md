@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://jongita.github.io/Live-Video/
+Site published at: https://jongita.github.io/SignUp/
 
 Design: [SignUp] https://cdn.discordapp.com/attachments/850245533838868480/850246368214908970/day1dr.png?ex=65fd18a2&is=65eaa3a2&hm=265e6e2beba06bf65c1fcb93c4542613fbe431de52816ed120d0edc4f97d670f&
 
@@ -46,7 +46,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/Jongita/UFO.git
+    git clone https://jongita.github.io/SignUp/
     ```
 2. Install NPM packages
     ```sh

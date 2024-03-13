@@ -1,0 +1,133 @@
+body,
+body* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.container{
+    width:1000px;
+    margin: 20px calc(50% - 500px);
+    height: 700px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    position: relative;
+    background-image: url(./img/Fone.png);
+    background-size: cover;
+    background-position: 0cap;
+}
+
+.table {
+    height: 500px;
+    width: 400px;
+    background-color: #fff;
+    padding: 25px 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 80px;
+    right: 90px;
+}
+
+.title{
+    height: 480px;
+    width: 350px;
+    background-image: url(./img/Mountain.png);
+    background-size: cover;
+    position: absolute;
+    top: 16%;
+    right: 550px;
+    color: #fff;
+}
+
+.main-title {
+    font-size: 40px;
+    margin-left: 60px;
+    margin-bottom: 330px;
+    margin-top: 50px;
+    font-weight: normal;
+}
+
+.title > a {
+    color: #fff;
+    margin-left: 50px;
+}
+.title>a:last-child{
+    margin-left: 0;
+}
+
+.user-details .input-box input {
+    height: 35px;
+    width: 85%;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+   
+}
+
+.details {
+    color: #ccc;
+}
+
+.button {
+    height: 45px;
+    margin: 45px 0
+}
+
+.button > a{
+    font-weight: bold;
+    color: blue;
+    padding: 30px;
+}
+
+.button input {
+    height: 100%;
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    background: blue
+    
+}
+
+.button input:hover {
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+.user-details .input-box {
+    margin-bottom: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.fa-close {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position:absolute;
+    top: 15px;
+    right: 20px;
+    text-align: center;
+    color: #ccc;
+    background-color: yellow;
+}
+
+
+
+
